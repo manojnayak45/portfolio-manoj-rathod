@@ -24,9 +24,12 @@ const Projects = () => {
             <ProjectCard
               imgPath={lift}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="EduNest"
+              description="This project is an online e-learning platform built using the MERN stack, featuring React.js for the frontend, Node.js for the backend, and MongoDB for the database. As the name suggests, the platform focuses on e-learning, allowing students to enroll in courses and start learning. Administrators can add and manage courses they wish to sell.
+
+The platform's main features include payment integration, enabling students to purchase courses seamlessly, and OTP verification during the registration process to ensure secure account creation."
+              ghLink="https://github.com/manojnayak45/edutesting"
+              demoLink="https://edunest-e.netlify.app/"
             />
           </Col>
 
@@ -34,9 +37,9 @@ const Projects = () => {
             <ProjectCard
               imgPath={project}
               isBlog={false}
-              title="Social Media"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/19sajib/social-media"
+              title="Care Connect"
+              description="This project is a comprehensive hospital management system designed to streamline the process of booking appointments with doctors and managing healthcare services. It offers a range of functionalities for both users and administrators, enhancing the efficiency and organization of hospital operations.Overall, the Hospital Management System is designed to enhance the efficiency of hospital operations and improve the user experience by providing an easy-to-use platform for booking and managing appointments."
+              ghLink=""
             />
           </Col>
 
@@ -44,9 +47,9 @@ const Projects = () => {
             <ProjectCard
               imgPath={kickstart}
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+              title="StayEase(frontend)"
+              description="As a React.js developer on the StayEase project, my role involved creating an intuitive and responsive user interface for our villa and hotel booking platform. StayEase allows users to easily search for, compare, and book accommodations. I focused on implementing dynamic and interactive features using React.js, ensuring a smooth and engaging user experience.Overall, my work on StayEase focused on leveraging React.js to build a powerful and user-centric booking platform, contributing to a successful group project outcome."
+              ghLink="https://github.com/SRJM941/stayEase"
             />
           </Col>
 
@@ -54,9 +57,9 @@ const Projects = () => {
             <ProjectCard
               imgPath={pg}
               isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              title="Temperature Converter"
+              description="The Temperature Converter is a web application built using HTML, CSS, and JavaScript that allows users to easily convert temperatures between different units. The tool is designed to provide a simple and intuitive interface for converting temperatures from Celsius to Fahrenheit, Kelvin, and vice versa.Overall, the Temperature Converter project showcases the ability to create a functional and visually appealing web application using fundamental web technologies. It serves as a practical tool for anyone needing quick and accurate temperature conversions."
+              ghLink="https://github.com/manojnayak45/temperatureconverter"
             />
           </Col>
 
@@ -64,22 +67,13 @@ const Projects = () => {
             <ProjectCard
               imgPath={krypto}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="Netflix Landing page"
+              description="The Netflix Landing Page is a web project built using HTML, CSS, and JavaScript, designed to replicate the look and feel of Netflix's homepage. This project serves as a static representation of Netflix's landing page, providing a visually appealing and interactive experience for users.Overall, the Netflix Landing Page project demonstrates the ability to create a visually striking and interactive web page using HTML, CSS, and JavaScript. It captures the essence of Netflix's design while providing a seamless and engaging user experience."
+              ghLink="https://github.com/manojnayak45/netflix-landing-page"
+              
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kickstart}
-              isBlog={false}
-              title="Solidity Kickstart"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink="https://github.com/19sajib/Solidity-Kickstart"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>

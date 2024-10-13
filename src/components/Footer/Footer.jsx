@@ -14,59 +14,12 @@ const Footer = () => {
     return (
       <Container fluid className="footer">
         <Row>
-          <Col md="4" className="footer-copywright">
-            <span>Dedicated to creating impactful solutions!</span>
-          </Col>
-          <Col md="4" className="footer-copywright">
-            <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
-          </Col>
+         
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="github"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/19sajib"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="linkedin"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://leetcode.com/19sajib/"
-                  style={{ color: "white" }}
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  aria-label="leetcode"
-                >
-                  <SiLeetcode />
-                </a>
-              </li>
+              
+              
+              
             </ul>
           </Col>
         </Row>

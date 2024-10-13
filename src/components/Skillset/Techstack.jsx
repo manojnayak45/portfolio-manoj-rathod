@@ -12,7 +12,9 @@ import {
   SiSolidity,
   SiRedux,
   SiMongodb,
-  SiHtml5
+  SiHtml5,
+  SiCss3,
+  SiTailwindcss
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -21,6 +23,12 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiTailwindcss />
+    </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
@@ -31,22 +39,7 @@ const Techstack = () => {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
       </Col>
     </Row>
   );
