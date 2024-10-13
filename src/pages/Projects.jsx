@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
+import pg from "../assets/tempConverter.png";
+import project from "../assets/careconnect.png";
+import lift from "../assets/EDUNEST.png";
+import krypto from "../assets/netflix.png";
 import kickstart from "../assets/projects/kickstart.png";
 
 const Projects = () => {
